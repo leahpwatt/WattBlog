@@ -1,3 +1,35 @@
+* {
+	font-family: arial, serif;
+}
+
+h2, h3, h4, .blog-description {
+	font-family: palitoon, arial, serif;
+ }
+
+@font-face {
+	font-family: "palitoon";
+	src: url(fonts/palitoon.otf);
+ }
+
+@font-face {
+	font-family: "FirecatMedium";
+	src: url(fonts/FirecatMedium.ttf);
+ }
+
+h1 {
+	font-family: FirecatMedium;
+	color: #ff944d;
+	text-shadow: 1px 1px 0px #000000;
+ }
+
+body {
+	background-color: #f2f2f2;
+ }
+
+.blog-masthead {
+	background-color: #b3cce6;
+}
+
 img {
 	width: 290px;
 	float: left;
@@ -8,6 +40,17 @@ form {
 	width: 60%;
  	border: 1px solid black;
  	margin: 0 auto 4% auto;
+ 	background-color: #b3cce6;
+}
+
+form h2 {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+form h3 {
+	text-align: center;
+	margin: 0 auto 3% auto;
 }
 
 .form-group, .checkbox {
@@ -32,6 +75,7 @@ form h2 {
 }
 
 .blog-description {
+	font-size: 2em;
 	margin-top: 2%;
 }
 
